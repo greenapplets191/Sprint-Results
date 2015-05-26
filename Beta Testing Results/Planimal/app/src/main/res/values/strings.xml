@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Planimal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="slate">#547980</color>
+    <color name="light_blue">#4ECDC4</color>
+    <color name="apple_green">#C7F464</color>
+    <color name="pink">#FF6B6B</color>
+    <color name="rose_pink">#C44D58</color>
+    <color name="lime_green">#E5FCC2</color>
+    
+    <string-array name="item_names">
+        <item>Bit Bento</item>
+        <item>Apple Juice</item>
+        <item>Sweet Nibble</item>
+        <item>Heal Potion</item>
+    </string-array>
+    <string-array name="item_descriptions">
+        <item>A hearty meal for any digital pet! Adds 25 fullness points.</item>
+        <item>A cool and refreshing glass of apple juice to quench your pet\'s thirst! Adds 5 fullness points.</item>
+        <item>It ain\'t healthy, but it sure is yummy! A delicious treat for your pet. Adds 5 fullness points and a positive status effect.</item>
+        <item>For your pet\'s boo-boos (you starved your pet didn\'t you)! Adds 30 health points.</item>
+    </string-array>
+
+    <integer-array name="item_prices">
+        <item>50</item>
+        <item>15</item>
+        <item>25</item>
+        <item>75</item>
+    </integer-array>
+</resources>
