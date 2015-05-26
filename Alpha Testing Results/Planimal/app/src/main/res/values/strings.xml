@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Planimal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="slate">#547980</color>
+    <color name="light_blue">#4ECDC4</color>
+    <color name="apple_green">#C7F464</color>
+    <color name="pink">#FF6B6B</color>
+    <color name="rose_pink">#C44D58</color>
+    <color name="lime_green">#E5FCC2</color>
+    
+    <string-array name="item_names">
+        <item>Bit Bento</item>
+        <item>Apple Juice</item>
+        <item>Sweet Nibble</item>
+        <item>Heal Potion</item>
+    </string-array>
+    <string-array name="item_descriptions">
+        <item>Bit Bento description</item>
+        <item>Apple Juice description</item>
+        <item>Sweet Nibble description</item>
+        <item>Heal Potion description</item>
+    </string-array>
+</resources>

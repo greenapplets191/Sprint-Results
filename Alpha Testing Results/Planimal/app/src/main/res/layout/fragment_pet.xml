@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/apple_green">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pet Name"
+        android:id="@+id/petName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pet"
+        android:layout_below="@+id/petName"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/henohenomoheji"
+        android:layout_margin="16dp"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/healthProgressBar"
+        android:layout_below="@+id/petName"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:max="100"
+        android:progress="100"
+        android:indeterminate="false"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hungerProgressBar"
+        android:layout_below="@+id/healthProgressBar"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:max="100"
+        android:progress="100"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/icon_health"
+        android:layout_alignTop="@+id/healthProgressBar"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/healthProgressBar"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_hunger" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pet Status"
+        android:id="@+id/petStatus"
+        android:layout_below="@+id/hungerProgressBar"
+        android:layout_alignEnd="@+id/hungerProgressBar" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:layout_below="@+id/money"
+        android:layout_toStartOf="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/icon_money"
+        android:layout_alignBottom="@+id/money"
+        android:layout_toStartOf="@+id/money" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Money Amount"
+        android:id="@+id/money"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/pet"
+        android:layout_alignEnd="@+id/imageView2" />
+
+</RelativeLayout>
